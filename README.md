@@ -19,7 +19,7 @@ python pacman.py -l mediumMaze -p SearchAgent
 
 python pacman.py -l bigMaze -z .5 -p SearchAgent
 
-Link: 
+Video - Link: https://drive.google.com/open?id=1fNdGktNccbSsPI2ysiI89k2iTVTb0Z9D
 
 Busca em Largura (breadthFirstSearch = BFS)
 
@@ -29,7 +29,7 @@ python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
 
 python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5
 
-Link: 
+Video - Link: https://drive.google.com/open?id=1YxB-osrrRiuJl9uzEScjsE45iIDRnn1E
 
 Busca de Custo Uniforme (uniformCostSearch = UCS)
 
@@ -41,7 +41,7 @@ python pacman.py -l mediumDottedMaze -p StayEastSearchAgent
 
 python pacman.py -l mediumScaryMaze -p StayWestSearchAgent
 
-Link
+Video - Link: https://drive.google.com/open?id=1aI2BBwIVHA7uz6NYTUN_pm9epTsgyUtG
 
 Busca A* (StarSearch = AaStarSearch )
 
@@ -51,4 +51,8 @@ python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattan
 
 python pacman.py -l trickySearch -p AStarFoodSearchAgent
 
-Link: 
+Video
+
+Link: https://drive.google.com/open?id=1R3l2UomMrvLjqLNWP6Aum9Mvp-BwsBJX
+
+Link: https://drive.google.com/open?id=1u36itmHUpGWNUBHOGRAKvlqZNpTD44kI
