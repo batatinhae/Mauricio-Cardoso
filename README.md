@@ -14,7 +14,9 @@ Busca em profundidade (depth-first search = DFS)
 Usamos o seguinte comandos para executar o programa: 
 
 python pacman.py -l tinyMaze -p SearchAgent
+
 python pacman.py -l mediumMaze -p SearchAgent
+
 python pacman.py -l bigMaze -z .5 -p SearchAgent
 
 Link: 
@@ -24,6 +26,7 @@ Busca em Largura (breadthFirstSearch = BFS)
 Usamos o seguinte comandos para executar o programa:
 
 python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
+
 python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5
 
 Link: 
@@ -33,7 +36,9 @@ Busca de Custo Uniforme (uniformCostSearch = UCS)
 Usamos o seguinte comandos para executar o programa:
 
 python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
+
 python pacman.py -l mediumDottedMaze -p StayEastSearchAgent
+
 python pacman.py -l mediumScaryMaze -p StayWestSearchAgent
 
 Link
