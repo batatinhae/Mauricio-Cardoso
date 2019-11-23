@@ -1,7 +1,9 @@
 # Mauricio-Cardoso
 
 Aluno : Mauricio Cardoso da Silva
+
 Faculdade: Area 1 
+
 Data:23/11/2019
 
 Trabalho simula o jogo do Pacman em um laberinto onde ele precisa encontrar o unico ponto de comida. 
@@ -15,12 +17,16 @@ python pacman.py -l tinyMaze -p SearchAgent
 python pacman.py -l mediumMaze -p SearchAgent
 python pacman.py -l bigMaze -z .5 -p SearchAgent
 
+Link: 
+
 Busca em Largura (breadthFirstSearch = BFS)
 
 Usamos o seguinte comandos para executar o programa:
 
 python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
 python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5
+
+Link: 
 
 Busca de Custo Uniforme (uniformCostSearch = UCS)
 
@@ -30,6 +36,8 @@ python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
 python pacman.py -l mediumDottedMaze -p StayEastSearchAgent
 python pacman.py -l mediumScaryMaze -p StayWestSearchAgent
 
+Link
+
 Busca A* (StarSearch = AaStarSearch )
 
 Usamos o seguinte comandos para executar o programa:
@@ -37,3 +45,5 @@ Usamos o seguinte comandos para executar o programa:
 python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristi
 
 python pacman.py -l trickySearch -p AStarFoodSearchAgent
+
+Link: 
