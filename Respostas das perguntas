@@ -1,0 +1,19 @@
+Aluno: Mauricio Cardoso da Silva
+MT: 31311166
+
+Todos os passos foram implementados!
+
+(Pergunta 1) A ordem de exploração foi de acordo com o esperado? 
+O Pacman realmente passa por todos os estados explorados no seu caminho para o objetivo?
+Sim, o pacman percorre em sua maioria todos estados explorados. 
+
+(Pergunta 2) Essa é uma solução ótima? Senão, o que a busca em profundidade está fazendo de errado?
+
+(Pergunta 3) A busca BFS encontra a solução ótima? Senão, verifique a sua implementação. Se o seu código foi escrito de maneira correta, ele deve funcionar também para o quebra-cabeças de 8 peças (seção 3.2 do livro-texto) sem modificações.
+Sim, encontra uma ótima solução em relação ao DPS, enquanto no DPS tivemos um custo de 130 no BFS o custo foi de 68, o caminho percorrido também foi menor em relação ao DPS, porém o numero de nós expandidos é maior. 
+python eightpuzzle.py – Funcionou perfeitamente bem, apresentado solução depois de 11 movimentos. 
+
+(Pergunta 4) O que acontece em openMaze para as várias estratégias de busca?
+
+Na DFS o pacman se comporta de forma estranha fazendo um zigzag passando por todos os nós expandidos que levam até o ponto desejado, nem todo os nós são expandidos.
+Na BFS, UCS, A* tem o comportamento da distancia mahatham ele percorre o menor caminho em linha reta, além de expandir todos os nós.
