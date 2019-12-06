@@ -6,7 +6,7 @@ Faculdade: Area 1
 
 Data:23/11/2019
 
-Trabalho simula o jogo do Pacman em um laberinto onde ele precisa encontrar o unico ponto de comida. 
+Trabalho simula o jogo do Pacman em um labirinto onde ele precisa encontrar o unico ponto de comida. 
 O objetivo do trabalho é implementar tipos de buscas para fazer com que o Pacman chegue ao seu objetivo de forma autonoma e da melhor maneira possivel. Foi usado a estrutura de dados Stack (pilha), Queue (fila) e PriorityQueue (fila com prioridade) na implimentação de cada codigo na ordem sucessiva. 
 
 Busca em profundidade (depth-first search = DFS)
