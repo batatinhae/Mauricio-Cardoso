@@ -11,6 +11,8 @@ O objetivo do trabalho é implementar tipos de buscas para fazer com que o Pacma
 
 Busca em profundidade (depth-first search = DFS)
 
+Busca começar no nó raiz e adiciona na pilha nó raiz e explora os ramos desses nós, colando o nó a ser explorado no stack(Pilha). Depois você volta para o nó raiz, marcando os nós já visitados
+
 Usamos o seguinte comandos para executar o programa: 
 
 python pacman.py -l tinyMaze -p SearchAgent
