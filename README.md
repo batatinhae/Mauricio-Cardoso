@@ -9,6 +9,12 @@ Data:23/11/2019
 Trabalho simula o jogo do Pacman em um labirinto onde ele precisa encontrar o unico ponto de comida. 
 O objetivo do trabalho é implementar tipos de buscas para fazer com que o Pacman chegue ao seu objetivo de forma autonoma e da melhor maneira possivel. Foi usado a estrutura de dados Stack (pilha), Queue (fila) e PriorityQueue (fila com prioridade) na implimentação de cada codigo na ordem sucessiva. 
 
+O processo de tentar encontrar uma sequencia de ações que leva de um estado até um estado objetivo é chamado de busca.
+
+• Uma vez encontrada a solução, o agente pode executar a sequencia de ações para chegar no objetivo.
+
+O ambiente é estático, observável e determínistico.
+
 Busca em profundidade (depth-first search = DFS)
 
 Busca começar no nó raiz e adiciona na pilha nó raiz e explora os ramos desses nós, colando o nó a ser explorado no stack(Pilha). Depois você volta para o nó raiz, marcando os nós já visitados
